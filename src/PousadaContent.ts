@@ -1,0 +1,32 @@
+export const PousadaContent = {
+  name: "Alfa Beach",
+  address: "Rua da Vaca, 2 — Praia do Atlântico, Vera Cruz — BA, CEP 44470-000",
+  phone: "5571991843800",
+  displayPhone: "+55 71 99184-3800",
+  mapUrl: "https://maps.app.goo.gl/b8jwn3F6tvn6xJ1c8",
+  rating: "4,8",
+  reviewCount: 67,
+  checkIn: "13h",
+  checkOut: "11h",
+  amenities: [
+    { icon: "waves", title: "Piscina externa", text: "Um convite para aproveitar o tempo livre e se refrescar durante a estadia." },
+    { icon: "wifi", title: "Wi-Fi gratuito", text: "Conectividade incluída para organizar seus passeios e manter contato." },
+    { icon: "car-front", title: "Estacionamento gratuito", text: "Mais praticidade para quem chega de carro." },
+    { icon: "snowflake", title: "Ar-condicionado em algumas unidades", text: "Consulte quais acomodações contam com ar-condicionado." },
+    { icon: "coffee", title: "Café da manhã buffet", text: "Opção disponível com cobrança à parte." },
+    { icon: "map-pin", title: "Praia do Atlântico", text: "Na Ilha de Itaparica, em Vera Cruz, litoral da Bahia." },
+  ],
+  reviews: [
+    { author: "Altemir Moura", quote: "Suítes confortável, piscina água quente e café maravilhoso." },
+    { author: "Henrique Chaves", quote: "Excelente atendimento, ótimo café da manhã, quartos amplos." },
+  ],
+  whatsappMessages: {
+    hero: "Olá! Conheci a Alfa Beach pelo site e gostaria de consultar a disponibilidade e os valores para me hospedar.",
+    benefits: "Olá! Gostaria de saber mais sobre a hospedagem na Alfa Beach e consultar as opções disponíveis.",
+    gallery: "Olá! Gostei das fotos da Alfa Beach e gostaria de conhecer os quartos disponíveis, os valores e as condições de hospedagem.",
+    reviews: "Olá! Vi os comentários sobre a Alfa Beach e gostaria de consultar a disponibilidade para minha viagem.",
+    info: "Olá! Gostaria de confirmar os horários, o café da manhã, as comodidades e os valores da hospedagem.",
+    final: "Olá! Quero planejar minha hospedagem na Alfa Beach. Poderiam me informar os valores e a disponibilidade para as datas da minha viagem?",
+    floating: "Olá! Vim pelo site da Alfa Beach e gostaria de receber informações sobre hospedagem.",
+  },
+};
